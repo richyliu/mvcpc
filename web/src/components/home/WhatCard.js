@@ -6,7 +6,7 @@ const BrainIcon = (
     role="img"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 512 512"
-    className="w-24 h-24 text-green-400"
+    className="w-24 h-24 text-gray-700"
   >
     <path
       fill="currentColor"
@@ -24,7 +24,7 @@ const PersonIcon = (
     role="img"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 448 512"
-    className="w-24 h-24 text-pink-400"
+    className="w-24 h-24 text-gray-700"
   >
     <path
       fill="currentColor"
@@ -34,7 +34,7 @@ const PersonIcon = (
 );
 
 const Tile = ({ icon, title, description }) => (
-  <div className="flex-auto flex flex-col items-stretch w-64">
+  <div className="mx-auto my-8 flex flex-col items-stretch">
     <div className="flex-none flex items-center justify-center py-4">
       {icon}
     </div>
@@ -46,8 +46,10 @@ const Tile = ({ icon, title, description }) => (
 export default function WhatCard() {
   return (
     <div className="py-24">
-      <div className="max-w-2xl mx-auto">
-        <h2 className="text-3xl">What is Competitive Programming?</h2>
+      <div className="max-w-2xl px-4 sm:mx-auto">
+        <h2 className="text-3xl leading-snug">
+          What is Competitive Programming?
+        </h2>
         <p className="mt-2">
           Competitive programming is an activity where participants compete to
           solve algorithmic problems within a fixed time frame ranging from 2-8
@@ -55,7 +57,7 @@ export default function WhatCard() {
           tangible benefits.
         </p>
       </div>
-      <div className="flex flex-row max-w-6xl mx-auto mt-12 space-x-8">
+      <div className="sm:grid sm:grid-cols-3 sm:space-x-4 lg:space-x-8 max-w-6xl mx-auto mt-12 px-8">
         <Tile
           icon={BrainIcon}
           title="Critical Problem Solving"

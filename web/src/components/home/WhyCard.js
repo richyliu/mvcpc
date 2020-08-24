@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function WhyCard() {
   return (
-    <div className="bg-indigo-900 text-white py-24">
-      <div className="max-w-2xl mx-auto">
-        <h2 className="text-3xl">Why MVCPC?</h2>
+    <div className="bg-blue-900 text-white py-24">
+      <div className="max-w-2xl px-4 sm:mx-auto">
+        <h2 className="text-3xl leading-snug">Why MVCPC?</h2>
         <p className="mt-2">
           Monta Vista has a lot of clubs that focus on computer-related
           subjects. But none of the other clubs emphasize competitive
