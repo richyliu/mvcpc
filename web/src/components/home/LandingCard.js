@@ -69,15 +69,25 @@ export default function LandingCard() {
               Monta Vista Competitive Programming Club
             </h1>
             <h2 className="text-xl sm:text-2xl mt-4">
-              Meetings every Monday in A660
+              Meetings every Monday at 11:15 a.m. on Zoom
             </h2>
-            <div className="mt-16 sm:mt-24">
-              <a
-                href="https://forms.gle/KS9qQE8r5b2pzUy89"
-                className="py-3 sm:py-4 px-6 sm:px-8 text-2xl font-light bg-blue-700 mt-12 rounded-lg"
-              >
-                Interest form
-              </a>
+            <div className="mt-16 sm:mt-20">
+              <div className="py-6">
+                <a
+                  href="https://forms.gle/KS9qQE8r5b2pzUy89"
+                  className="py-3 sm:py-4 px-6 sm:px-8 text-2xl font-light bg-gray-700 mt-12 rounded-lg"
+                >
+                  Interest form
+                </a>
+              </div>
+              <div className="py-6">
+                <a
+                  href="https://fuhsd-org.zoom.us/j/97094986487?pwd=ZER6U2xXMGpKWm1VdjNOVVJJTEVnQT09"
+                  className="py-3 sm:py-4 px-6 sm:px-8 text-2xl font-light bg-blue-700 mt-12 rounded-lg"
+                >
+                  Zoom link
+                </a>
+              </div>
             </div>
           </div>
         </div>
