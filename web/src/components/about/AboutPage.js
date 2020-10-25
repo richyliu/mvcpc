@@ -86,14 +86,14 @@ const LoadProfileData = ({ withProfileData }) => (
         },
         {
           name: 'Abhinav Kommula',
-          job: '',
+          job: 'Vice President',
           description:
             'Abhinav is a current senior at Monta Vista High School. In addition to being a three-time AIME qualifier, Abhinav is a USACO Platinum Contestant and a Division 1 contestant on codeforces. Apart from competitions, he’s also interested in conducting CS research within Machine Learning and Cybersecurity. In his free time, Abhinav enjoys cooking, playing pop music on the piano, and contemplating life.',
           image: <Img fixed={data.abhinav.childImageSharp.fixed} />,
         },
         {
           name: 'Anika Jain',
-          job: '',
+          job: 'Director of Curriculum',
           description:
             'Anika is a current senior at Monta Vista High School. She is a USACO Platinum Contestant and a Technovation international semifinalist. In her free time, she enjoys reading about the recent breakthroughs in astronomy, developing apps, as well as teaching coding to elementary school kids.',
           image: <Img fixed={data.anika.childImageSharp.fixed} />,
