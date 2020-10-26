@@ -81,7 +81,7 @@ const LoadProfileData = ({ withProfileData }) => (
           name: 'Nathan Wang',
           job: 'President',
           description:
-            'Nathan is currently a sophomore at Monta Vista High School. He is a 2 time AIME qualifier and a USACO Platinum Contestant since his 7th grade. Nathan has qualified for USACO camp, and is additionally an active member of School Leadership.',
+            'Nathan is currently a junior at Monta Vista High School. He is a 2x USACO Finalist, a 4x AIME qualifier, and the co-creator of the USACO Guide. Outside of competitive programming, he enjoys playing social deduction games like Secret Hitler.',
           image: <Img fixed={data.nathan.childImageSharp.fixed} />,
         },
         {
