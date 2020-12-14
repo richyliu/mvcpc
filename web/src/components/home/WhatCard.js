@@ -76,7 +76,7 @@ export default function WhatCard() {
         <Tile
           icon={BrainIcon}
           title="Critical Problem Solving"
-          description="Competitive programming teaches participants to solve problems using critical thinking and modern computational techniques, both important skills to address complex problems in the 21st century."
+          description="Competitive programming teaches participants to solve problems using critical thinking and modern computational techniques, important skills to address complex problems in the 21st century."
         />
         <Tile
           icon={PersonIcon}
@@ -86,7 +86,7 @@ export default function WhatCard() {
         <Tile
           icon={ConnectIcon}
           title="Make Connections"
-          description="Get to know other people who are interested in competitive, as they might be your coworkers someday! Making connections in a highly competitive field is quite useful"
+          description="Get to know other highly talented students who are interested in competitive programming, as they might be your coworkers someday! Making connections is always useful!"
         />
       </div>
     </div>
