@@ -21,7 +21,7 @@ export default function Footer() {
           <FooterItem name="Contact" link="/contact" />
         </div>
         <hr className="border border-blue-800 my-8" />
-        <p className="text-center">&copy; Richard Liu 2020</p>
+        <p className="text-center">&copy; Richard Liu 2020 - 2021</p>
         <StaticQuery
           query={graphql`
             query {
